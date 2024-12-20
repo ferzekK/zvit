@@ -80,3 +80,11 @@ button {
     margin: 10px 0 0 0; /* Відступи над та під заголовком */
     color: #fff4ea; /* Колір тексту підзаголовка */
 }
+.desc a {
+    display: block; 
+    text-decoration: none; 
+    color: #0004ff; 
+}
+.desc a:hover {
+    text-decoration: underline; 
+}
