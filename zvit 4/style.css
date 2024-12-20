@@ -1,0 +1,82 @@
+body {
+    background-color: #fff4ea; 
+}
+
+.image {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.image-div {
+    text-align: right;
+    margin-top: -50px;
+}
+
+.sec-but {
+    text-align: center;
+}
+h2, h3 {
+    margin-left: 500px;
+    color: #000;
+    text-align: center;
+  }
+button {
+    padding: 20px;
+    margin: 2px;
+    color: #fff; /* Колір тексту на кнопці */
+    background-color: #ffc61a;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.format-1 {
+    background-color: #946c0a;
+    font-size: 18px;
+    width: 400px;
+    height: 75px;
+    color: #fff4ea; /* Колір тексту */
+}
+
+.but-st {
+    background-color: #C2C3C5;
+    color: #022E66;
+    font-size: 18px;
+    width: 400px;
+    height: 75px;
+}
+
+.format-2 {
+    background-color: #ffc61a;
+    font-size: 16px;
+    padding: 15px;
+    width: 325px;
+    margin-left: 75px;
+    color: #fff4ea; /* Колір тексту */
+}
+
+.desc {
+    text-align: right;
+    margin-top: -450px;
+    margin-right: 100px;
+    color: #fff4ea; /* Колір тексту */
+}
+
+.header-container {
+    background-color: #946c0a; /* Колір фону */
+    padding: 20px; /* Відступи навколо тексту */
+    text-align: center; /* Центрування тексту */
+    border-radius: 10px; /* Закруглення кутів */
+}
+
+.header-container h2 {
+    margin: 0; /* Прибрати зайві відступи */
+    color: #fff4ea; /* Колір тексту заголовка */
+}
+
+.header-container h3 {
+    margin: 10px 0 0 0; /* Відступи над та під заголовком */
+    color: #fff4ea; /* Колір тексту підзаголовка */
+}
