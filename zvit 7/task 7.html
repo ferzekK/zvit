@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Підрахунок категорій</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Список категорій</h1>
+    <ul id="categories">
+        <li class="item">
+            <h2>Animals</h2>
+            <ul>
+                <li>Cat</li>
+                <li>Hamster</li>
+                <li>Horse</li>
+                <li>Parrot</li>
+            </ul>
+        </li>
+        <li class="item">
+            <h2>Products</h2>
+            <ul>
+                <li>Bread</li>
+                <li>Parsley</li>
+                <li>Cheese</li>
+            </ul>
+        </li>
+        <li class="item">
+            <h2>Technologies</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        // Отримуємо список категорій за ID
+        const categories = document.querySelectorAll('#categories .item');
+
+        // Виводимо кількість категорій
+        console.log(`Number of categories: ${categories.length}`);
+
+      
+        categories.forEach(category => {
+         
+            const categoryTitle = category.querySelector('h2').textContent;
+           
+            const categoryElements = category.querySelectorAll('ul li').length;
+
+        
+            console.log(`Category: ${categoryTitle}`);
+            console.log(`Elements: ${categoryElements}`);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання №1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task-container">
+        <h2>ЗАВДАННЯ №1</h2>
+        <button id="showButton">SHOW ME</button>
+        <input type="text" id="inputField" placeholder="Введіть текст">
+    </div>
+    <script>
+        // Отримання елементів за ID
+const button = document.getElementById('showButton');
+const inputField = document.getElementById('inputField');
+
+
+button.addEventListener('click', () => {
+    const inputValue = inputField.value; 
+    console.log(inputValue); 
+});
+    </script>
+</body>
+</html>
